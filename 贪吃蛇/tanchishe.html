@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #map {
+            width: 800px;
+            height: 600px;
+            background-color: #000;
+            position: relative;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+</body>
+<script src="food.js"></script> 
+<script src="snake.js"></script>
+<script src="game.js"></script>
+<script>
+var oMap = document.getElementById("map");
+var game = new Game(oMap);
+game.Start();
+</script>
+
+</html>
